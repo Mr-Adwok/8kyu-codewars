@@ -7,4 +7,4 @@ function positiveSum(arr) {
     return sum;
 }
 
-console.log(positiveSum([1, -4, 5, 6]))
+console.log(positiveSum([1, -4, 5, 6, 7]))

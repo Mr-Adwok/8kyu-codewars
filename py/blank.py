@@ -7,10 +7,13 @@
 # n=-5, m=5:  0
 
 
-
+# solution one
 def paperwork(n, m):
-    if n|m == 0:return 0
+    if n|m < 0:return 0
     return n*m
 
+# solution two
+def paperwork2(n, m):
+    return n * m if n > 0 and m > 0 else 0
 
 print(paperwork(5,5))
